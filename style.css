@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
 .page-title {
     background-color:#004175;
     color:white;
@@ -11,16 +21,20 @@
 .traits li {
     background-color: #89DEEF;
     color:black;
-    padding:2rem;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: "Open Sans", sans-serif;
+    display: inline-block;
+
 }
 
 .dogs img {
-    max-width: 80%;
+    max-width: 120px;
     height: auto;
-    border: 5px solid white;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;;
   }
 
   .dogs h3 {
