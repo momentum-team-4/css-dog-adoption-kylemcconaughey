@@ -8,3 +8,21 @@
     border-color: #89DEEF;
 }
 
+.traits li {
+    background-color: #89DEEF;
+    color:black;
+    padding:2rem;
+    border-style: none;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.dogs img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid white;
+  }
+
+  .dogs h3 {
+      font-family: Oswald, sans-serif;
+  }
