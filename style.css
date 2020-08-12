@@ -1,0 +1,10 @@
+.page-title {
+    background-color:#004175;
+    color:white;
+    /* font:"Oswald"; */
+    padding:2rem;
+    border-style: none none solid none;
+    border-width: medium;
+    border-color: #89DEEF;
+}
+
