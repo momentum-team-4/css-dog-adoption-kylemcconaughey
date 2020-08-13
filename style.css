@@ -9,6 +9,7 @@ img {
 }
 
 
+
 .page-title {
     background-color:#004175;
     color:white;
@@ -50,20 +51,62 @@ main {
     margin: 0.25rem 0.1rem;
 }
 
+.dogs-list {
+    align-items: flex-start;
+}
+
 .dog {
     display: inline-flex;
     flex-flow: row wrap;
     /* justify-content: space-evenly; */
     max-width: 30%;
-    align-items: stretch;
     margin-bottom: 2rem;
 }
 
-.dog img {
-    align-items: flex-start;
-  }
-
-  .dog h3 {
+.dog h3 {
       font-family: Oswald, sans-serif;
       width: 100%;
-  }
+}
+
+
+.blocks {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+
+.block-1 {
+
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(166, 169, 240, 0.5), 
+        rgba(166, 169, 240, 0.5)
+      ),
+      /* bottom, image */
+      url("starter_files/images/donate.jpg");
+}
+
+.block-2 {
+
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(166, 169, 240, 0.5), 
+        rgba(166, 169, 240, 0.5)
+      ),
+      /* bottom, image */
+      url("starter_files/images/volunteer.jpg");
+}
+
+.block-3 {
+
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(166, 169, 240, 0.5), 
+        rgba(166, 169, 240, 0.5)
+      ),
+      /* bottom, image */
+      url("starter_files/images/location.png");
+}
