@@ -103,7 +103,7 @@ main {
       width: 33%;
 }
 
-.block-1:hover {
+.block-1:hover {   /*Lightens the gradient, makes the text a little larger*/
     font-size: 2.5vw;
     background:  
     linear-gradient(
@@ -125,7 +125,7 @@ main {
       width: 33%;
 }
 
-.block-2:hover {
+.block-2:hover {   /*Lightens the gradient, makes the text a little larger*/
     font-size: 2.5vw;
     background:  
     linear-gradient(
@@ -147,7 +147,7 @@ main {
       width: 33%;
 }
 
-.block-3:hover {
+.block-3:hover {   /*Lightens the gradient, makes the text a little larger*/
     font-size: 2.5vw;
     background:  
     linear-gradient(
