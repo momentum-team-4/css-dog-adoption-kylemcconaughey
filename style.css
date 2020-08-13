@@ -8,8 +8,7 @@ img {
     max-width: 100%;
 }
 
-
-
+/*  --HEADER--  */
 .page-title {
     background-color:#004175;
     color:white;
@@ -33,20 +32,21 @@ main {
     margin-bottom: 2rem;
 }
 
-.adopt-info p {
+.adopt-info p { /* adoption info sentance */
     margin-bottom: 1rem;
 }
 
-.dogs-list {
+
+/*  --DOG SECTION--  */
+.dogs-list {   /*All dog cards*/
     display: flex;
     flex-flow: wrap;
     width: 100%;
     justify-content: space-between;
 }
 
-.dogs-list li {
+.dogs-list li {   /*Dog traits*/
     display: inline-block;
-    /* flex-flow: row wrap; */
     list-style-type:none;
     background-color: #89DEEF;
     color:black;
@@ -58,31 +58,28 @@ main {
     margin: 0.25rem 0.1rem;
 }
 
-.dog {
-    /* width: 22%; */
-    width: 300px;
+.dog {   /*Individual dog card*/
+    width: 30%; /* <--for variable size */
+    /* width: 300px; <--for variable positioning */
     margin: 0.25rem;
 }
 
-.dog h3 {
+/* .dog:hover {
+    width: 25%; 
+} */
+
+.dog h3 {      /*Dog names*/
       font-family: Oswald, sans-serif;
       width: 100%;
 }
 
- footer {
-    width: 100%;
-}
+
+
+/* --FOOTER-- */
 
 .footer-blocks {
     display: flex;
     flex-flow: nowrap;
-    margin: 0;
-    /* height: 100%; */
-    /* flex-grow: 1; */
-    /* text-align: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center; */
 }
 
 .block {
@@ -90,7 +87,7 @@ main {
     height: 350px;
     line-height: 350px;
     color: white;
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -107,7 +104,7 @@ main {
 }
 
 .block-1:hover {
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     background:  
     linear-gradient(
       rgba(166, 169, 240, 0.4), 
@@ -129,7 +126,7 @@ main {
 }
 
 .block-2:hover {
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     background:  
     linear-gradient(
       rgba(166, 169, 240, 0.4), 
@@ -151,7 +148,7 @@ main {
 }
 
 .block-3:hover {
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     background:  
     linear-gradient(
       rgba(166, 169, 240, 0.4), 
