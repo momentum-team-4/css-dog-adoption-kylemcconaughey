@@ -78,7 +78,6 @@ main {
 .block-1 {
 
     background: 
-      /* top, transparent red, faked with gradient */ 
       linear-gradient(
         rgba(166, 169, 240, 0.5), 
         rgba(166, 169, 240, 0.5)
@@ -90,7 +89,6 @@ main {
 .block-2 {
 
     background: 
-      /* top, transparent red, faked with gradient */ 
       linear-gradient(
         rgba(166, 169, 240, 0.5), 
         rgba(166, 169, 240, 0.5)
@@ -102,7 +100,6 @@ main {
 .block-3 {
 
     background: 
-      /* top, transparent red, faked with gradient */ 
       linear-gradient(
         rgba(166, 169, 240, 0.5), 
         rgba(166, 169, 240, 0.5)
